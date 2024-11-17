@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abouts_us">
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/fzue1">
+
+        </ImageView>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="86dp"
+            android:id="@+id/login"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="150dp"
+            android:backgroundTint="@color/bule"
+            android:text="Log-out"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <ImageView
+            android:id="@+id/drower_show"
+            android:clickable="true"
+            android:layout_width="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/baseline_dehaze_24" />
+
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="Abouts us "
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_marginTop="25dp"
+                android:layout_gravity="start"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:text="Welcome to Fuez"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_margin="25dp"
+                    android:textSize="12dp"
+                    android:text="At Fuez, we believe that everyone deserves the opportunity to showcase their skills and pursue meaningful employment. We are dedicated to empowering the unemployed and those working in the informal sector by providing a platform where they can create shareable and reviewable profiles, opening doors to new job opportunities and connections."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="25dp"
+                android:layout_gravity="start"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:text="Our Vision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_margin="25dp"
+                    android:textSize="12dp"
+                    android:text="Our vision is to bridge the gap between talent and opportunity, ensuring that everyone, regardless of their background or circumstances, has the tools they need to pursue a better future. By making it easy for individuals to present their skills and work experience, we aim to level the playing field and help more people secure the jobs they deserve."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+                    <ImageView
+                        android:layout_margin="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="270dp"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/image">
+
+                    </ImageView>
+
+
+
+                    <ImageView
+                        android:layout_margin="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="270dp"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/imaes">
+
+                    </ImageView>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:text="What we do"
+                android:textSize="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:text="Fuez offers a simple yet powerful solution for job seekers in the informal and unemployed sectors. We provide a platform where users can:"
+                android:textSize="12dp"
+                android:layout_margin="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:text="Create a Professional Profile:Users can easily set up a profile that highlights their skills, experience, and work history, making it easier for potential employers to find them"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:textSize="12dp"
+                    android:text="Share and Review: Profiles on Fuez are shareable and can be reviewed by employers, allowing job seekers to get their foot in the door with credible information."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textSize="12dp"
+
+                    android:text="Access Employment Opportunities: Our platform connects job seekers with potential employers, giving them access to opportunities that might otherwise be out of reach."
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="Our Mission"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:text="Our mission is to empower individuals by giving them the tools they need to stand out in the job market. We are committed to making employment opportunities more accessible and helping our users achieve their career goals."
+                android:textSize="12dp"
+                android:layout_margin="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/mession">
+
+                </ImageView>
+            <ImageView
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/join">
+
+            </ImageView>
+
+
+            <TextView
+                android:text="Why fuez"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:text="Choosing Fuez means choosing a platform that is designed with your success in mind. We understand the challenges faced by the unemployed and informal workers, and we are here to support you every step of the way. Our platform is user-friendly, secure, and tailored to help you put your best foot forward."
+                android:textSize="12dp"
+                android:layout_margin="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <TextView
+                android:text="Join us Today"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:text="Whether you're looking for your next job or seeking to improve your career prospects, Fuez is here to help. Join us today and take the first step toward a brighter future."
+                android:textSize="12dp"
+                android:layout_margin="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+            <LinearLayout
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/f"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp">
+                </ImageView>
+
+                <ImageView
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/g" android:layout_width="80dp"
+                    android:layout_height="80dp">
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:text="Company name"
+                android:layout_marginLeft="25dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Abouts us"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="How it works"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Contact us"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Pro-file"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:text="Customer "
+                android:layout_marginLeft="25dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="PAIA manual"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Terms of service"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Contact us"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Privecy policy"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

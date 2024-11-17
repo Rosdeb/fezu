@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+<!--
+    <com.chaos.view.PinView
+        android:id="@+id/pinview"
+        app:itemCount="6"
+        app:itemWidth="45dp"
+        app:itemHeight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:itemBackground="@color/white"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:cursorVisible="true"
+        app:hideLineWhenFilled="false"
+        app:itemRadius="10dp"
+        style="@style/PinWidget.PinView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </com.chaos.view.PinView>-->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/background_input"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="350dp"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/background_input"
+            android:background="@drawable/background_input"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password " />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/background_input"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="350dp"
+            android:id="@+id/code"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/background_input"
+            android:background="@drawable/background_input"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password " />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="verify code!"
+            android:textColor="@color/bule">
+
+        </TextView>
+        <TextView
+            android:id="@+id/code_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textColor="@color/bule">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="300dp"
+        android:id="@+id/button"
+        app:cornerRadius="12dp"
+        android:layout_gravity="center_horizontal"
+        android:text="verify"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="65dp">
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

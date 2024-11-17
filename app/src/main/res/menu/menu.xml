@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/home"
+            android:title="Home"
+            />
+    <item android:id="@+id/profile"
+        android:title="My profile"
+        />
+
+
+    <item android:id="@+id/profiles"
+        android:title="Pro-files"
+        />
+
+        <item android:id="@+id/howitwork"
+            android:title="How it works"
+            />
+    <item android:id="@+id/change"
+        android:title="Change password"
+        />
+     <item android:id="@+id/subscripion"
+    android:title="Subscription"
+    />
+
+
+    <item android:id="@+id/abouts"
+        android:title="Abouts us"
+        />
+
+        <item android:id="@+id/contact"
+            android:title="Contact us"
+            />
+    <item android:id="@+id/reset_password"
+        android:title="Reset password"
+        />
+
+
+</menu>

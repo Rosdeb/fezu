@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="start"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+
+        <!-- Main content layout -->
+
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/navigation_view"
+                android:background="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                app:headerLayout="@layout/header_layout"
+                app:menu="@menu/menu"/>
+
+        <!-- Navigation View -->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/fzue1">
+
+                    </ImageView>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="86dp"
+                        android:id="@+id/login"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="150dp"
+                        android:backgroundTint="@color/bule"
+                        android:text="Log-out"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        app:cornerRadius="8dp">
+
+                    </com.google.android.material.button.MaterialButton>
+
+                    <ImageView
+                        android:id="@+id/drower_show"
+                        android:clickable="true"
+                        android:contentDescription="Open Drawer"
+                        android:layout_width="40dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/baseline_dehaze_24" />
+
+
+                </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="40dp"
+                    android:text="Find the Resume-experts\nthat stand out\nfrom the crowd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:fitsSystemWindows="true"
+                    android:textSize="15dp"
+                    android:text="With a potential employee or service providers\nreviews and recommendations all in one place,\nit makes it easier to find the right person for the\njob be it a once off refuse removal job, or a longer\nterm home executive job. Fuez. bridges the\ngap between the job seeker and the employer."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.SearchView
+                        android:layout_width="340dp"
+                        android:background="@color/white_1"
+                        android:layout_height="wrap_content">
+
+                    </androidx.appcompat.widget.SearchView>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:text="Popular: Gardening, House Cleaning, Handy Man"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/image_fuez"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp">
+
+                </ImageView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Browse by Services"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="70dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:text="Narrow down the service you are looking for"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <!-- <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="15dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_marginTop="17dp"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <androidx.cardview.widget.CardView
+                     app:cardCornerRadius="10dp"
+                     android:layout_width="300dp"
+                     android:layout_height="150dp">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <ImageView
+                             android:layout_marginLeft="15dp"
+                             android:src="@drawable/domestic"
+                             android:layout_width="50dp"
+                             android:layout_height="50dp"/>
+                         <TextView
+                             android:layout_marginLeft="15dp"
+                             android:text="DOMESTIC"
+                             android:textSize="17dp"
+                             android:textStyle="normal"
+                             android:layout_marginTop="10dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                         <LinearLayout
+                             android:layout_marginTop="25dp"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content">
+                             <TextView
+
+                                 android:layout_marginLeft="15dp"
+                                 android:text="Explore Now"
+                                 android:textSize="15dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                             <ImageView
+                                 android:src="@drawable/baseline_north_east_24"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"/>
+                         </LinearLayout>
+
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+             </LinearLayout>-->
+
+
+
+
+
+            <HorizontalScrollView
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="17dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="10dp"
+                            android:layout_width="300dp"
+                            android:layout_height="150dp">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_marginLeft="15dp"
+                                    android:src="@drawable/domestic"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"/>
+                                <TextView
+                                    android:layout_marginLeft="15dp"
+                                    android:text="DOMESTIC"
+                                    android:textSize="17dp"
+                                    android:textStyle="normal"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <LinearLayout
+                                    android:layout_marginTop="25dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Explore Now"
+                                        android:textSize="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <ImageView
+                                        android:src="@drawable/baseline_north_east_24"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    app:cornerRadius="8dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:text="All service"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.button.MaterialButton>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="35dp"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="How It Works?"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:text="Bridging the gap between the employee and employer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+             <HorizontalScrollView
+                 android:layout_marginTop="50dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content">
+
+                     <LinearLayout
+                         android:layout_marginLeft="20dp"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_horizontal"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <androidx.cardview.widget.CardView
+                             app:cardCornerRadius="8dp"
+                             android:layout_width="300dp"
+                             android:layout_height="180dp">
+
+                             <LinearLayout
+                                 android:layout_gravity="center_horizontal"
+                                 android:orientation="vertical"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+
+                                 <ImageView
+                                     android:layout_marginLeft="15dp"
+                                     android:src="@drawable/baseline_insert_drive_file_24"
+                                     android:layout_width="50dp"
+                                     android:layout_height="50dp"/>
+
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_gravity="center_horizontal"
+                                 android:layout_marginTop="50dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+                                 <TextView
+                                     android:textColor="@color/black"
+                                     android:layout_marginLeft="15dp"
+                                     android:text="Create a pro-file"
+                                     android:textSize="20dp"
+                                     android:textStyle="bold"
+                                     android:layout_marginTop="10dp"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"/>
+                             </LinearLayout>
+
+
+                             <LinearLayout
+                                 android:orientation="vertical"
+                                 android:layout_gravity="center_horizontal"
+                                 android:layout_marginTop="100dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:orientation="vertical"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="Fill in the easy to complete Pro-file fields to build out your"
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+
+                                 </LinearLayout>
+
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="Pro-file."
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+                                 </LinearLayout>
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="Your Pro-file doubles as your CV"
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+                                 </LinearLayout>
+
+
+
+                             </LinearLayout>
+
+                         </androidx.cardview.widget.CardView>
+                     </LinearLayout>
+                     <LinearLayout
+                         android:layout_marginLeft="20dp"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_horizontal"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <androidx.cardview.widget.CardView
+                             app:cardCornerRadius="8dp"
+                             android:layout_width="300dp"
+                             android:layout_height="180dp">
+
+                             <LinearLayout
+                                 android:layout_gravity="center_horizontal"
+                                 android:orientation="vertical"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+
+                                 <ImageView
+                                     android:layout_marginLeft="15dp"
+                                     android:src="@drawable/beg"
+                                     android:layout_width="50dp"
+                                     android:layout_height="50dp"/>
+
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_gravity="center_horizontal"
+                                 android:layout_marginTop="50dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+                                 <TextView
+                                     android:textColor="@color/black"
+                                     android:layout_marginLeft="15dp"
+                                     android:text="Make your Profile Visible"
+                                     android:textSize="20dp"
+                                     android:textStyle="bold"
+                                     android:layout_marginTop="10dp"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"/>
+                             </LinearLayout>
+
+
+                             <LinearLayout
+                                 android:orientation="vertical"
+                                 android:layout_gravity="center_horizontal"
+                                 android:layout_marginTop="100dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:orientation="vertical"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="Subscribe to make your Pro-file visible, sharable,"
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+
+                                 </LinearLayout>
+
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="downloadable and watch the reviews pile up"
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+                                 </LinearLayout>
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="Your Pro-file doubles as your CV"
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+                                 </LinearLayout>
+
+
+
+                             </LinearLayout>
+
+                         </androidx.cardview.widget.CardView>
+                     </LinearLayout>
+                     <LinearLayout
+                         android:layout_marginLeft="20dp"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_horizontal"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <androidx.cardview.widget.CardView
+                             app:cardCornerRadius="8dp"
+                             android:layout_width="300dp"
+                             android:layout_height="180dp">
+
+                             <LinearLayout
+                                 android:layout_gravity="center_horizontal"
+                                 android:orientation="vertical"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+
+                                 <ImageView
+                                     android:layout_marginLeft="15dp"
+                                     android:src="@drawable/user"
+                                     android:layout_width="50dp"
+                                     android:layout_height="50dp"/>
+
+                             </LinearLayout>
+
+                             <LinearLayout
+                                 android:layout_gravity="center_horizontal"
+                                 android:layout_marginTop="50dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+                                 <TextView
+                                     android:textColor="@color/black"
+                                     android:layout_marginLeft="15dp"
+                                     android:text="Get Sharing"
+                                     android:textSize="20dp"
+                                     android:textStyle="bold"
+                                     android:layout_marginTop="10dp"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"/>
+                             </LinearLayout>
+
+
+                             <LinearLayout
+                                 android:orientation="vertical"
+                                 android:layout_gravity="center_horizontal"
+                                 android:layout_marginTop="100dp"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content">
+
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:orientation="vertical"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="Share your Pro-file with potential new employers at the"
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+
+                                 </LinearLayout>
+
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="click of a button. Download a PDF CV from within your Pro-"
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+                                 </LinearLayout>
+                                 <LinearLayout
+                                     android:layout_gravity="center_horizontal"
+                                     android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content">
+                                     <TextView
+                                         android:fitsSystemWindows="true"
+                                         android:layout_marginLeft="15dp"
+                                         android:text="file."
+                                         android:textSize="8dp"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"/>
+                                 </LinearLayout>
+
+
+
+                             </LinearLayout>
+
+                         </androidx.cardview.widget.CardView>
+                     </LinearLayout>
+
+
+                 </LinearLayout>
+
+             </HorizontalScrollView>
+           <!-- <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        app:cardCornerRadius="8dp"
+                        android:layout_width="300dp"
+                        android:layout_height="180dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_marginLeft="15dp"
+                                android:src="@drawable/baseline_insert_drive_file_24"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="50dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="15dp"
+                                android:text="Create a pro-file"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="100dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="Fill in the easy to complete Pro-file fields to build out your"
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="Pro-file."
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="Your Pro-file doubles as your CV"
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        app:cardCornerRadius="8dp"
+                        android:layout_width="300dp"
+                        android:layout_height="180dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_marginLeft="15dp"
+                                android:src="@drawable/beg"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="50dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="15dp"
+                                android:text="Make your Profile Visible"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="100dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="Subscribe to make your Pro-file visible, sharable,"
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="downloadable and watch the reviews pile up"
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="Your Pro-file doubles as your CV"
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        app:cardCornerRadius="8dp"
+                        android:layout_width="300dp"
+                        android:layout_height="180dp">
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:layout_marginLeft="15dp"
+                                android:src="@drawable/user"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="50dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="15dp"
+                                android:text="Get Sharing"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="100dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="Share your Pro-file with potential new employers at the"
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="click of a button. Download a PDF CV from within your Pro-"
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:fitsSystemWindows="true"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="file."
+                                    android:textSize="8dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Pro-file"
+                        android:textSize="25dp"
+                        android:layout_marginRight="56dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                    </TextView>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:text="View All"
+                        android:backgroundTint="@color/white"
+                        app:cornerRadius="8dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </com.google.android.material.button.MaterialButton>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="280dp">
+
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/user"
+                                    app:civ_border_width="2dp"
+                                    app:civ_border_color="#FF000000"/>
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="120dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textSize="20dp"
+                                    android:text="Md. Shadat Hossain"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="150dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:text="Software Engineer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="170dp">
+
+                                <RatingBar
+                                    android:rating="2.5"
+                                    style="@style/Widget.AppCompat.RatingBar.Small"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                </RatingBar>
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="200dp">
+
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:text="View All"
+                                    android:backgroundTint="@color/bule"
+                                    app:cornerRadius="8dp"
+                                    android:textColor="@color/black"
+                                    android:layout_width="250dp"
+                                    android:layout_height="wrap_content">
+
+                                </com.google.android.material.button.MaterialButton>
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="25dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="280dp">
+
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/user"
+                                    app:civ_border_width="2dp"
+                                    app:civ_border_color="#FF000000"/>
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="120dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textSize="20dp"
+                                    android:text="Rosdeb koch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="150dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:text="Android developer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="170dp">
+
+                                <RatingBar
+                                    android:rating="2.5"
+                                    style="@style/Widget.AppCompat.RatingBar.Small"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                </RatingBar>
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="200dp">
+
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:text="View All"
+                                    android:backgroundTint="@color/bule"
+                                    app:cornerRadius="8dp"
+                                    android:textColor="@color/black"
+                                    android:layout_width="250dp"
+                                    android:layout_height="wrap_content">
+
+                                </com.google.android.material.button.MaterialButton>
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="25dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="300dp"
+                            android:layout_height="280dp">
+
+
+                            <LinearLayout
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/user"
+                                    app:civ_border_width="2dp"
+                                    app:civ_border_color="#FF000000"/>
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="120dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textSize="20dp"
+                                    android:text="Juel Hossain"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="150dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:text="Web developer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="170dp">
+
+                                <RatingBar
+                                    android:rating="2.5"
+                                    style="@style/Widget.AppCompat.RatingBar.Small"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                </RatingBar>
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="200dp">
+
+
+                                <com.google.android.material.button.MaterialButton
+                                    android:text="View All"
+                                    android:backgroundTint="@color/bule"
+                                    app:cornerRadius="8dp"
+                                    android:textColor="@color/black"
+                                    android:layout_width="250dp"
+                                    android:layout_height="wrap_content">
+
+                                </com.google.android.material.button.MaterialButton>
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="310dp"
+                android:layout_height="180dp">
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:iss_auto_cycle="true"
+                    app:iss_period="1000"
+                    app:iss_delay="1000"
+                    app:iss_text_align="CENTER"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="25dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/fzue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageView>
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="25dp"
+                    android:text="Gone are the days of struggling to get your CV to potential employers. Create a Pro-file, share your Pro-file, rack up the reviews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/f"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/g" android:layout_width="80dp"
+                        android:layout_height="80dp">
+                    </ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:text="Company name"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Abouts us"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="How it works"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Contact us"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:id="@+id/profile_use"
+                    android:layout_marginTop="10dp"
+                    android:text="Pro-file"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:text="Customer "
+                    android:layout_marginLeft="25dp"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="PAIA manual"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Terms of service"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Contact us"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Privecy policy"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

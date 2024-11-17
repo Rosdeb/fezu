@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".How_it_work">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/fzue1">
+
+            </ImageView>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="86dp"
+                android:id="@+id/login"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginLeft="150dp"
+                android:backgroundTint="@color/bule"
+                android:text="Log-out"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                app:cornerRadius="8dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <ImageView
+                android:id="@+id/drower_show"
+                android:clickable="true"
+                android:layout_width="40dp"
+                android:layout_marginLeft="8dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/baseline_dehaze_24" />
+
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:scrollbars="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:text="How its work "
+                    android:textStyle="bold"
+                    android:textSize="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+                <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="start"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="20dp"
+                        android:text="Create your profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_margin="25dp"
+                        android:textSize="12dp"
+                        android:text="Start by signing up on Fuez and creating a personalised profile. Whether you’re unemployed or working in the informal sector, Fuez gives you the platform to showcase your skills, experience, and qualifications. Your profile is your digital CV, ready to be shared with potential employers."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/how">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/how1">
+
+                </ImageView>
+                <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="start"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="20dp"
+                        android:text="Shear your profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_margin="25dp"
+                        android:textSize="12dp"
+                        android:text="With Fuez, sharing your profile is easy. Whether through social media, email, or direct link, you can showcase your skills to a wide audience, increasing your chances of finding the right job. Employers can review your profile and get in touch directly if they’re interested."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="start"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="20dp"
+                        android:text="Recive Reviews"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_margin="25dp"
+                        android:textSize="12dp"
+                        android:text="Your work speaks for itself. After completing jobs or projects, employers and clients can leave reviews on your profile. Positive reviews boost your credibility and help you secure more opportunities. Fuez helps you build a track record of success."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/how2">
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/how4">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_marginTop="25dp"
+                    android:layout_gravity="start"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="20dp"
+                        android:text="Find opportunities"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_margin="25dp"
+                        android:textSize="12dp"
+                        android:text="Fuez connects you with potential employers who are looking for your skills. Fuez is here to support your journey every step of the way."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="35dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="How It Works?"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Bridging the gap between the employee and employer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <HorizontalScrollView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                app:cardCornerRadius="8dp"
+                                android:layout_width="300dp"
+                                android:layout_height="180dp">
+
+                                <LinearLayout
+                                    android:layout_gravity="center_horizontal"
+                                    android:orientation="vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_marginLeft="15dp"
+                                        android:src="@drawable/baseline_insert_drive_file_24"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="50dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textColor="@color/black"
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Create a pro-file"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="100dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:orientation="vertical"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="Fill in the easy to complete Pro-file fields to build out your"
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="Pro-file."
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="Your Pro-file doubles as your CV"
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+                                    </LinearLayout>
+
+
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                app:cardCornerRadius="8dp"
+                                android:layout_width="300dp"
+                                android:layout_height="180dp">
+
+                                <LinearLayout
+                                    android:layout_gravity="center_horizontal"
+                                    android:orientation="vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_marginLeft="15dp"
+                                        android:src="@drawable/beg"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="50dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textColor="@color/black"
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Make your Profile Visible"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="100dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:orientation="vertical"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="Subscribe to make your Pro-file visible, sharable,"
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="downloadable and watch the reviews pile up"
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="Your Pro-file doubles as your CV"
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+                                    </LinearLayout>
+
+
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <androidx.cardview.widget.CardView
+                                app:cardCornerRadius="8dp"
+                                android:layout_width="300dp"
+                                android:layout_height="180dp">
+
+                                <LinearLayout
+                                    android:layout_gravity="center_horizontal"
+                                    android:orientation="vertical"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:layout_marginLeft="15dp"
+                                        android:src="@drawable/user"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="50dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:textColor="@color/black"
+                                        android:layout_marginLeft="15dp"
+                                        android:text="Get Sharing"
+                                        android:textSize="20dp"
+                                        android:textStyle="bold"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="100dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:orientation="vertical"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="Share your Pro-file with potential new employers at the"
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="click of a button. Download a PDF CV from within your Pro-"
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:fitsSystemWindows="true"
+                                            android:layout_marginLeft="15dp"
+                                            android:text="file."
+                                            android:textSize="8dp"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"/>
+                                    </LinearLayout>
+
+
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/f"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/g" android:layout_width="80dp"
+                        android:layout_height="80dp">
+                    </ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:text="Company name"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Abouts us"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="How it works"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Contact us"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Pro-file"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:text="Customer "
+                    android:layout_marginLeft="25dp"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="PAIA manual"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Terms of service"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Contact us"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Privecy policy"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
